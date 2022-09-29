@@ -1,0 +1,130 @@
+body {
+  margin: 50px;
+  background-color: rgb(240, 234, 219);
+}
+
+h1 {
+  font-size: 26px;
+  text-align: center;
+  font-family: verdana;
+  color:rgb(150, 115, 166)
+}
+
+h2 {
+  font-size: 22px;
+  text-align: center;
+  font-family: verdana;
+  color:rgb(150, 115, 166)
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  font-family: verdana;
+  color:rgb(150, 115, 166)
+}
+
+h4 {
+  font-size: 16px;
+  text-align: center;
+  font-family: verdana;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  font-family: verdana;
+}
+
+label {
+  font-size: 14px;
+  text-align: left;
+  font-family: verdana;
+}
+
+input {
+  font-size: 12px;
+  font-family: verdana;
+}
+
+.button1 {
+  border: 2px solid rgb(150, 115, 166);
+  background-color: rgba(150, 115, 166, 0.5);
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: verdana;
+  margin: 5px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.buttonGrn {
+  border: 2px solid rgb(12, 159, 53);
+  background-color: rgba(12, 159, 53, 0.5);
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: verdana;
+  margin: 5px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  }
+
+input:invalid {
+  background-color: #f9c1c1;
+}
+
+.columnLeft {
+  margin: auto;
+  box-sizing: border-box;
+  top: 0;
+  float: left;
+  width: auto;
+  padding-left: 25%;
+  padding-right: 60px;
+}
+
+.columnRight {
+  margin: auto;
+  box-sizing: border-box;
+  top: 0;
+  float: left;
+  width: auto;
+  padding-left: 60px;
+  padding-right: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.submitLabel {
+  display: inline-block;
+  width: 170px;
+  height: 20px;
+  text-align: right;
+}
+
+.submitInput {
+  display: inline-block;
+  width: 170px;
+  height: 20px;
+  padding: 5px;
+  text-align: left;
+}

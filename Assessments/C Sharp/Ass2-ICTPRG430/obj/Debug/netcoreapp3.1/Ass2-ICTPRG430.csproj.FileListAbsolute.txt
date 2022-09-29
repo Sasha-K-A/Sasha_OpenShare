@@ -1,0 +1,14 @@
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\obj\Debug\netcoreapp3.1\Ass2-ICTPRG430.csproj.AssemblyReference.cache
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\obj\Debug\netcoreapp3.1\Ass2-ICTPRG430.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\obj\Debug\netcoreapp3.1\Ass2-ICTPRG430.AssemblyInfoInputs.cache
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\obj\Debug\netcoreapp3.1\Ass2-ICTPRG430.AssemblyInfo.cs
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\obj\Debug\netcoreapp3.1\Ass2-ICTPRG430.csproj.CoreCompileInputs.cache
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\bin\Debug\netcoreapp3.1\Ass2-ICTPRG430.exe
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\bin\Debug\netcoreapp3.1\Ass2-ICTPRG430.deps.json
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\bin\Debug\netcoreapp3.1\Ass2-ICTPRG430.runtimeconfig.json
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\bin\Debug\netcoreapp3.1\Ass2-ICTPRG430.runtimeconfig.dev.json
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\bin\Debug\netcoreapp3.1\Ass2-ICTPRG430.dll
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\bin\Debug\netcoreapp3.1\Ass2-ICTPRG430.pdb
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\obj\Debug\netcoreapp3.1\Ass2-ICTPRG430.dll
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\obj\Debug\netcoreapp3.1\Ass2-ICTPRG430.pdb
+C:\Users\sasha\OneDrive\Documents\GitHub\ICTPRG430_CSharp\Assessment2_ICTPRG430\Ass2-ICTPRG430\Ass2-ICTPRG430\obj\Debug\netcoreapp3.1\Ass2-ICTPRG430.genruntimeconfig.cache

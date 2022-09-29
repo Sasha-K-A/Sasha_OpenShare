@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sasha.A</title>
+        <link rel="stylesheet" href="Ass2_Style.css">
+    </head>
+    <body>
+        <button id="engButton" class="button1">English</button>
+        <button id="spaButton" class="button1">Española</button>
+        <br><br>
+        <div>
+            <h1 class="heading" id="heading">Abstract Art Competition</h1>
+            <p id="para">To create your artwork, select and insert various objects from the panel.<br>
+            Start by clicking on the dropdown menu below to select your object, then select the outline colour.<br>
+            According to your selected object input the size, fill colour and location details.<br>
+            Click on the 'Insert' button to create your object on the canvas.<br>
+            Repeat steps above until completed.
+            </p>
+        </div>
+        <br><br>
+        <h2>Create your artwork</h2>
+        <div class="row">
+            <div class="columnLeft">
+                <h4>Canvas</h4>
+                <p text-align: center;><canvas id="abstractCanvas" width="400" height="400" style="border:1px solid #000000; background-color:white;"> Your browser does not support the HTML canvas tag.</canvas></p>
+            </div>
+            <div class="columnRight">
+                <form style="text-align: center;" class="formStyle">
+                    <h4>Select your object</h4>
+                    <label for="objects">Object: </label>
+                    <select name="objects" id="objects" required>
+                    <option value="circle">Circle</option>
+                    <option value="sprayCircles">Spray random circles</option>
+                    <option value="rectangle">Rectangle/Square</option>
+                    <option value="line">Line</option>
+                    </select>
+                    <br>
+                    <label for="outlineColor">Outline colour: </label>
+                    <input type="color" id="outlineColor" name="outlineColor" value="#0075FF">
+                    <br><br>
+                    <h4>Circle / Spray random circles</h4>
+                    <label for="radius">Size: </label>
+                    <input type="range" id="radius" name="radius" min="10" max="100" title="Max 100">
+                    <br>
+                    <label for="fillColorC">Fill colour: </label>
+                    <input type="color" id="fillColorC" name="fillColor" value="#0075FF">
+                    <br>
+                    <label for="XcoordC">X Co-ordinate: </label>
+                    <input type="number" id="XcoordC" class="numFld" name="Xcoord" min="0" max="400" title="0-400" value="0">
+                    <br>
+                    <label for="YcoordC">Y Co-ordinate: </label>
+                    <input type="number" id="YcoordC" class="numFld" name="Ycoord" min="0" max="400" title="0-400" value="0">
+                    <br>
+                    <h4>Rectangle / Square</h4>
+                    <label for="height">Height: </label>
+                    <input type="number" id="height" class="numFld" name="height" min="10" max="400" title="10-400" value="40">
+                    <br>
+                    <label for="width">Width: </label>
+                    <input type="number" id="width" class="numFld" name="width" min="10" max="400" title="10-400" value="100">
+                    <br>
+                    <label for="fillColorR">Fill colour: </label>
+                    <input type="color" id="fillColorR" name="fillColor" value="#0075FF">
+                    <br>
+                    <label for="XcoordR">X Co-ordinate: </label>
+                    <input type="number" id="XcoordR" class="numFld" name="Xcoord" min="0" max="400" title="0-400" value="0">
+                    <br>
+                    <label for="YcoordR">Y Co-ordinate: </label>
+                    <input type="number" id="YcoordR" class="numFld" name="Ycoord" min="0" max="400" title="0-400" value="0">
+                    <br>
+                    <h4>Line</h4>
+                    <label for="xStart">X start: </label>
+                    <input type="number" id="xStart" class="numFld" name="xStart" min="0" max="400" title="0-400" value="0">
+                    <br>
+                    <label for="xEnd">X end: </label>
+                    <input type="number" id="xEnd" class="numFld" name="xEnd" min="0" max="400" title="0-400" value="400">
+                    <br>
+                    <label for="yStart">Y start: </label>
+                    <input type="number" id="yStart" class="numFld" name="yStart" min="0" max="400" title="0-400" value="0">
+                    <br>
+                    <label for="yEnd">Y end: </label>
+                    <input type="number" id="yEnd" class="numFld" name="yEnd" min="0" max="400" title="0-400" value="400">
+                    <br><br>
+                    <button type="button" id="insertBtn" class="buttonGrn">Insert object</button> <button id="clearBtn" class="button1">Clear canvas</button>
+                </form>
+            </div>
+        </div>
+        <br><br>
+        <h2>Submit your artwork</h2>
+        <p>Once your artwork is completed, save your artwork on your computer by right clicking on the image and selecting 'save image as...'.<br>
+        Fill out all the fields below and select "submit" to upload your artwork.<br> 
+        <i>All fields are mandatory.</i></p>
+        <br>
+        <form id="fs-frm" name="file-upload-form" accept-charset="utf-8" action="/process.php" target="_blank" method="post" enctype="multipart/form-data" style="text-align: center;">    
+            <label for="upload" class="submitLabel"></label>
+            <input type="file" name="upload" accept=".png" class="submitInput" required>
+            <br><br>
+            <label for="userName" class="submitLabel">Username </label>
+            <input type="text" name="userName" id="userName" placeholder="Enter a username" class="submitInput" required>
+            <br><br>
+            <label for="email-address" class="submitLabel">Email </label>
+            <input type="email" name="email" id="email-address" placeholder="email@email.com" class="submitInput" required >
+            <br><br>
+            <label for="pwd" class="submitLabel">Password </label>
+            <input type="password" id="pwd" name="pwd" minlength="8" placeholder="Minimum 8 characters" class="submitInput" required>
+            <br>
+            <label for="cnfpwd" class="submitLabel">Confirm password </label>
+            <input type="password" id="cnfpwd" name="pwd" minlength="8" placeholder="Enter the same password" class="submitInput" required>
+            <br><br>
+            <label for="phone" class="submitLabel">Mobile no.</label>
+            <input type="tel" id="phone" name="phone" size = "18" placeholder="1234-123-123" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" class="submitInput" required>
+            <br><br>
+            <input type="submit" value="Submit" id="submit" class="buttonGrn">
+            <input type="reset" value="Reset" class="button1">  
+          </form> 
+          <script src="ICTPRG435_Ass2_SashaAndersen.js"></script>         
+    </body>
+</html>
