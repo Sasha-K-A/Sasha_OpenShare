@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Calculator</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="Calculator.css">
+<style>
+</style>
+<body>
+
+<div>
+ <h1>Sasha's basic calculator</h1>
+</div>
+
+<div class="Calculator">
+  <form id="calculator">
+    <div class="row">
+      <div class="col-1">
+        <label for="firstNum">First number</label>
+      </div>
+      <div class="col-2">
+        <input type="number" id="firstNum" name="firstNum">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1">
+        <label for="secondNum">Second number</label>
+      </div>
+      <div class="col-2">
+        <input type="number" id="secondNum" name="secondNum">
+      </div>
+    </div>
+    <p>Select a function</p>
+    <button type="button" id="add">+</button>
+    <button type="button" id="subtract">-</button>
+    <button type="button" id="multiply">x</button>
+    <button type="button" id="divide">/</button>
+    <br><br>
+  </form> 
+  <div id=answerBox>
+    <p id ="answer"></p>
+  </div>
+</div>
+
+<script src="Calculator.js"></script>
+
+</body>
+</html>
