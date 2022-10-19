@@ -1,0 +1,88 @@
+body {
+    margin: 50px;
+    background-color: navy;
+  }
+  
+h1 {
+  font-size: 26px;
+  font-family: verdana;
+  color:goldenrod;
+  text-align: center  
+}
+
+p {
+  font-size: 16px;
+  font-family: verdana;
+  color: lightsteelblue;
+}
+
+label {
+  font-size: 14px;
+  text-align: left;
+  font-family: verdana;
+}
+
+input {
+  font-size: 14px;
+  font-family: verdana;
+}
+
+input[type=number], select {
+  width: 100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+#answerBox {
+  text-align: center;
+}
+
+#answer {
+  text-align: center;
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background:goldenrod;
+  color:white;
+}
+
+form {
+  font-size: 16px;
+  text-align: center;
+  color: lightsteelblue;
+}
+
+.col-1 {
+  float: left;
+  width: 48%;
+  text-align: right;
+  padding: 20px 0px 0px 0px;
+}
+
+.col-2 {
+  float: right;
+  width: 48%;
+  text-align: left;
+}
+
+.col-3 {
+  float: right;
+  width: 48%;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
